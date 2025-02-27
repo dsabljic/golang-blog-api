@@ -26,6 +26,12 @@ FROM_EMAIL=[email address from which the confirmation email is sent]
 docker compose up --build -d
 ```
 
+### Run db migrations
+
+```bash
+make migrate-up
+```
+
 ### Run the server
 
 ```bash
