@@ -1,0 +1,24 @@
+### General ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+### Node & Build Files ###
+node_modules
+dist
+bower_components
+
+### TypeScript ###
+*.tsbuildinfo
+
+### Editor & OS ###
+.vscode/
+.idea/
+*.sublime*
+
+### Images & Design Files ###
+psd
+thumb
+sketch

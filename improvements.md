@@ -1,0 +1,3 @@
+- [ ] add hybrid search
+- [ ] add another rate limiting strategy
+- [ ] correct the db fields
