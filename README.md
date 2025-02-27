@@ -8,7 +8,19 @@
 go mod tidy
 ```
 
-### Prepare the environment (db and redis)
+### Configure Environment Variables
+
+Create a .env file in the root directory and populate it with the following:
+
+```env
+ADDR=:8080
+DB_ADDR=postgres://admin:adminpassword@localhost:54332/social?sslmode=disable
+ENV=development
+SENDGRID_API_KEY=...
+FROM_EMAIL=[email address from which the confirmation email is sent]
+```
+
+### Start services (pg db and redis)
 
 ```bash
 docker compose up --build -d
