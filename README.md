@@ -8,6 +8,12 @@
 go mod tidy
 ```
 
+### Prepare the environment (db and redis)
+
+```bash
+docker compose up --build -d
+```
+
 ### Run the server
 
 ```bash
